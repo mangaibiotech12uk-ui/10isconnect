@@ -1,0 +1,1081 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="10isConnect — The intelligent platform connecting players, coaches, clubs, tournaments, and facilities across the global tennis ecosystem." />
+  <meta name="keywords" content="tennis, tennis app, tennis platform, tennis coach, tennis club, tennis tournament, tennis community" />
+  <meta name="author" content="10isConnect" />
+  <meta property="og:title" content="10isConnect — The Future of Tennis Starts Here" />
+  <meta property="og:description" content="One intelligent platform connecting the entire tennis ecosystem." />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <title>10isConnect — One Court. One Community. One Tennis World.</title>
+  <link rel="icon" type="image/png" href="assets/icon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- ═══════════════════════════════════════════
+     NAVIGATION
+════════════════════════════════════════════ -->
+<header class="nav-header" id="navbar">
+  <nav class="nav-container" aria-label="Main navigation">
+    <a href="#" class="nav-logo" aria-label="10isConnect Home">
+      <img src="assets/logo.png" alt="10isConnect" class="logo-img" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+      <span class="logo-svg-fallback" aria-hidden="true">
+        <svg viewBox="0 0 220 44" xmlns="http://www.w3.org/2000/svg" height="36">
+          <text x="0" y="32" font-family="Poppins,sans-serif" font-weight="800" font-size="30" fill="#0A1628">1</text>
+          <circle cx="28" cy="20" r="13" fill="#A8CC38"/>
+          <path d="M17 20 Q28 10 39 20" stroke="white" stroke-width="2" fill="none"/>
+          <path d="M17 20 Q28 30 39 20" stroke="white" stroke-width="2" fill="none"/>
+          <text x="44" y="32" font-family="Poppins,sans-serif" font-weight="800" font-size="30" fill="#0A1628">is</text>
+          <text x="82" y="32" font-family="Poppins,sans-serif" font-weight="800" font-size="30" fill="#00B09B">Connect</text>
+        </svg>
+      </span>
+    </a>
+
+    <ul class="nav-links" role="list">
+      <li><a href="#features" class="nav-link">Features</a></li>
+      <li><a href="#ecosystem" class="nav-link">Ecosystem</a></li>
+      <li><a href="#roadmap" class="nav-link">Roadmap</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+
+    <div class="nav-actions">
+      <a href="#" class="btn btn-ghost">Login</a>
+      <a href="#contact" class="btn btn-primary">Get Started</a>
+    </div>
+
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+    <ul role="list">
+      <li><a href="#features" class="mobile-link">Features</a></li>
+      <li><a href="#ecosystem" class="mobile-link">Ecosystem</a></li>
+      <li><a href="#roadmap" class="mobile-link">Roadmap</a></li>
+      <li><a href="#contact" class="mobile-link">Contact</a></li>
+    </ul>
+    <div class="mobile-actions">
+      <a href="#" class="btn btn-ghost btn-block">Login</a>
+      <a href="#contact" class="btn btn-primary btn-block">Get Started</a>
+    </div>
+  </div>
+</header>
+
+
+<!-- ═══════════════════════════════════════════
+     HERO
+════════════════════════════════════════════ -->
+<section class="hero" id="home" aria-label="Hero">
+  <div class="hero-bg">
+    <div class="hero-grid"></div>
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+    <svg class="hero-court" viewBox="0 0 900 500" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+      <rect x="100" y="50" width="700" height="400" fill="none" stroke="rgba(0,176,155,0.08)" stroke-width="1.5"/>
+      <line x1="450" y1="50" x2="450" y2="450" stroke="rgba(0,176,155,0.08)" stroke-width="1.5"/>
+      <line x1="100" y1="175" x2="800" y2="175" stroke="rgba(0,176,155,0.06)" stroke-width="1"/>
+      <line x1="100" y1="325" x2="800" y2="325" stroke="rgba(0,176,155,0.06)" stroke-width="1"/>
+      <line x1="225" y1="175" x2="225" y2="325" stroke="rgba(0,176,155,0.06)" stroke-width="1"/>
+      <line x1="675" y1="175" x2="675" y2="325" stroke="rgba(0,176,155,0.06)" stroke-width="1"/>
+      <circle cx="450" cy="250" r="60" fill="none" stroke="rgba(0,176,155,0.07)" stroke-width="1.5"/>
+    </svg>
+    <div class="floating-balls">
+      <div class="fball fball-1">
+        <svg viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="18" fill="#A8CC38"/><path d="M5 20 Q20 5 35 20" stroke="white" stroke-width="2.5" fill="none"/><path d="M5 20 Q20 35 35 20" stroke="white" stroke-width="2.5" fill="none"/></svg>
+      </div>
+      <div class="fball fball-2">
+        <svg viewBox="0 0 28 28" aria-hidden="true"><circle cx="14" cy="14" r="12" fill="#A8CC38"/><path d="M4 14 Q14 4 24 14" stroke="white" stroke-width="2" fill="none"/><path d="M4 14 Q14 24 24 14" stroke="white" stroke-width="2" fill="none"/></svg>
+      </div>
+      <div class="fball fball-3">
+        <svg viewBox="0 0 22 22" aria-hidden="true"><circle cx="11" cy="11" r="10" fill="#A8CC38"/><path d="M3 11 Q11 3 19 11" stroke="white" stroke-width="1.8" fill="none"/><path d="M3 11 Q11 19 19 11" stroke="white" stroke-width="1.8" fill="none"/></svg>
+      </div>
+    </div>
+  </div>
+
+  <div class="container hero-content">
+    <div class="hero-text">
+      <div class="hero-badge reveal">
+        <span class="badge-dot"></span>
+        Now in Early Access — MVP Launching September 2026
+      </div>
+      <h1 class="hero-title reveal reveal-delay-1">
+        The Future of<br/>
+        <span class="gradient-text">Tennis Starts Here</span>
+      </h1>
+      <p class="hero-sub reveal reveal-delay-2">
+        One intelligent platform connecting players, coaches, clubs,<br class="desktop-br"/>
+        tournaments, and facilities. Built for the modern tennis world.
+      </p>
+      <div class="hero-tagline reveal reveal-delay-3">
+        Connect. Compete. Improve. Belong.
+      </div>
+      <div class="hero-ctas reveal reveal-delay-4">
+        <a href="#features" class="btn btn-primary btn-lg">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+          Explore MVP
+        </a>
+        <a href="#contact" class="btn btn-outline btn-lg">
+          Join Early Access
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+      </div>
+      <div class="hero-trust reveal reveal-delay-5">
+        <div class="trust-item">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00B09B" stroke-width="2.5" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg>
+          No credit card required
+        </div>
+        <div class="trust-item">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00B09B" stroke-width="2.5" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg>
+          Free during early access
+        </div>
+        <div class="trust-item">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00B09B" stroke-width="2.5" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg>
+          All user types welcome
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-visual reveal reveal-delay-2">
+      <div class="phone-mockup">
+        <div class="phone-frame">
+          <div class="phone-notch"></div>
+          <div class="phone-screen">
+            <div class="app-topbar">
+              <div class="app-logo-mini">
+                <svg viewBox="0 0 18 18" width="18" height="18"><circle cx="9" cy="9" r="8" fill="#A8CC38"/><path d="M2 9Q9 2 16 9" stroke="white" stroke-width="1.5" fill="none"/><path d="M2 9Q9 16 16 9" stroke="white" stroke-width="1.5" fill="none"/></svg>
+              </div>
+              <span>10isConnect</span>
+              <div class="app-notif">3</div>
+            </div>
+            <div class="app-hero-card">
+              <div class="app-welcome">Good morning, Alex 👋</div>
+              <div class="app-wtn">WTN <strong>8.4</strong></div>
+              <div class="app-stats-row">
+                <div class="app-stat"><span>14</span><small>Matches</small></div>
+                <div class="app-stat"><span>9</span><small>Wins</small></div>
+                <div class="app-stat"><span>3</span><small>Trophies</small></div>
+              </div>
+            </div>
+            <div class="app-section-label">Next Sessions</div>
+            <div class="app-session">
+              <div class="session-icon">🎾</div>
+              <div class="session-info">
+                <div class="session-title">Individual — Coach Priya</div>
+                <div class="session-time">Today, 3:00 PM · Court 2</div>
+              </div>
+              <div class="session-badge">Today</div>
+            </div>
+            <div class="app-session">
+              <div class="session-icon">🏆</div>
+              <div class="session-info">
+                <div class="session-title">County League · Round 4</div>
+                <div class="session-time">Sat, 10:00 AM · Wimbledon TC</div>
+              </div>
+              <div class="session-badge upcoming">Sat</div>
+            </div>
+            <div class="app-section-label">Your Rating</div>
+            <div class="app-rating-bar">
+              <div class="rating-fill" style="width:72%"></div>
+            </div>
+            <div class="rating-labels"><span>RPE 7.2</span><span>Improving ↑</span></div>
+          </div>
+        </div>
+        <div class="phone-glow"></div>
+        <div class="phone-card card-float-1">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="#00B09B" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          New Match Found
+        </div>
+        <div class="phone-card card-float-2">
+          🎾 Tournament registered
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero-scroll-hint" aria-hidden="true">
+    <div class="scroll-mouse"><div class="scroll-wheel"></div></div>
+    <span>Scroll to explore</span>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════
+     STATS TICKER
+════════════════════════════════════════════ -->
+<section class="stats-bar" aria-label="Platform statistics">
+  <div class="container stats-grid">
+    <div class="stat-item reveal">
+      <div class="stat-number">50K<span>+</span></div>
+      <div class="stat-label">Players Connected</div>
+    </div>
+    <div class="stat-divider" aria-hidden="true"></div>
+    <div class="stat-item reveal reveal-delay-1">
+      <div class="stat-number">1,200<span>+</span></div>
+      <div class="stat-label">Registered Coaches</div>
+    </div>
+    <div class="stat-divider" aria-hidden="true"></div>
+    <div class="stat-item reveal reveal-delay-2">
+      <div class="stat-number">800<span>+</span></div>
+      <div class="stat-label">Partner Clubs</div>
+    </div>
+    <div class="stat-divider" aria-hidden="true"></div>
+    <div class="stat-item reveal reveal-delay-3">
+      <div class="stat-number">30<span>+</span></div>
+      <div class="stat-label">Countries at Launch</div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════
+     THE PROBLEM
+════════════════════════════════════════════ -->
+<section class="problem section" id="problem" aria-labelledby="problem-title">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="section-label">The Challenge</div>
+      <h2 class="section-title" id="problem-title">Why Tennis Still Feels<br/><span class="gradient-text">Disconnected</span></h2>
+      <p class="section-sub">The tennis world is fragmented across dozens of tools, platforms, and manual processes. We're here to change that.</p>
+    </div>
+    <div class="problem-grid">
+      <div class="problem-card reveal">
+        <div class="problem-icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+        </div>
+        <h3>Finding Players Is Difficult</h3>
+        <p>There is no reliable way to discover opponents of your level nearby. Players rely on word of mouth, message boards, and luck.</p>
+      </div>
+      <div class="problem-card reveal reveal-delay-1">
+        <div class="problem-icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+        </div>
+        <h3>Clubs Operate in Isolation</h3>
+        <p>Each club manages bookings, memberships, and schedules on separate systems with no shared visibility across the sport.</p>
+      </div>
+      <div class="problem-card reveal reveal-delay-2">
+        <div class="problem-icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01"/></svg>
+        </div>
+        <h3>Tournament Information Is Fragmented</h3>
+        <p>Entry deadlines, draws, results, and rankings are scattered across multiple governing body websites, spreadsheets, and PDFs.</p>
+      </div>
+      <div class="problem-card reveal reveal-delay-1">
+        <div class="problem-icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+        </div>
+        <h3>Coaches Struggle to Reach Players</h3>
+        <p>Finding new students, managing schedules, and tracking player progress still happens through WhatsApp groups and paper notebooks.</p>
+      </div>
+      <div class="problem-card reveal reveal-delay-2">
+        <div class="problem-icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M8 4v16M16 4v16"/></svg>
+        </div>
+        <h3>No Unified Tennis Identity</h3>
+        <p>Players carry no portable digital profile. Every club, tournament, and programme requires the same information to be entered again from scratch.</p>
+      </div>
+      <div class="problem-card reveal reveal-delay-3">
+        <div class="problem-icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+        </div>
+        <h3>Communities Are Spread Thin</h3>
+        <p>Tennis conversations happen across Facebook Groups, WhatsApp, Reddit, Discord, and club notice boards — never in one focused place.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════
+     SOLUTION
+════════════════════════════════════════════ -->
+<section class="solution section" id="solution" aria-labelledby="solution-title">
+  <div class="container">
+    <div class="solution-layout">
+      <div class="solution-left reveal">
+        <div class="section-label">Our Answer</div>
+        <h2 class="section-title" id="solution-title">One Platform.<br/><span class="gradient-text">Every Tennis Connection.</span></h2>
+        <p class="section-sub">10isConnect is the digital home for the entire tennis ecosystem — designed from the ground up to eliminate fragmentation and bring every part of the sport together.</p>
+        <div class="solution-points">
+          <div class="solution-point">
+            <div class="sp-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg>
+            </div>
+            <div>
+              <strong>Smart Player Discovery</strong>
+              <p>Find matched opponents by level, location, and availability using intelligent matchmaking.</p>
+            </div>
+          </div>
+          <div class="solution-point">
+            <div class="sp-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg>
+            </div>
+            <div>
+              <strong>Unified Venue Management</strong>
+              <p>Clubs and academies manage courts, bookings, and members in one seamless workspace.</p>
+            </div>
+          </div>
+          <div class="solution-point">
+            <div class="sp-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg>
+            </div>
+            <div>
+              <strong>Centralised Tournament Hub</strong>
+              <p>All entries, draws, results, and rankings in one place — with calendar integration.</p>
+            </div>
+          </div>
+          <div class="solution-point">
+            <div class="sp-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg>
+            </div>
+            <div>
+              <strong>Portable Digital Profile</strong>
+              <p>One verified identity — LTA number, WTN, achievements, and history — follows you everywhere.</p>
+            </div>
+          </div>
+          <div class="solution-point">
+            <div class="sp-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg>
+            </div>
+            <div>
+              <strong>Coach Marketplace</strong>
+              <p>Verified, DBS-checked coaches with full profiles so players can find and book with confidence.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="solution-right reveal reveal-delay-2">
+        <div class="solution-visual">
+          <div class="sv-card sv-card-top">
+            <div class="sv-icon-wrap teal">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+            </div>
+            <div>
+              <div class="sv-card-title">Player Found</div>
+              <div class="sv-card-sub">Sarah M. · WTN 8.1 · 2.4 miles away</div>
+            </div>
+            <div class="sv-badge">Match</div>
+          </div>
+          <div class="sv-center">
+            <div class="sv-orb">
+              <svg viewBox="0 0 80 80" width="80" height="80" aria-hidden="true">
+                <circle cx="40" cy="40" r="36" fill="#A8CC38"/>
+                <path d="M10 40 Q40 8 70 40" stroke="white" stroke-width="4" fill="none"/>
+                <path d="M10 40 Q40 72 70 40" stroke="white" stroke-width="4" fill="none"/>
+              </svg>
+            </div>
+            <div class="sv-connections">
+              <div class="sv-dot sv-dot-1"></div>
+              <div class="sv-dot sv-dot-2"></div>
+              <div class="sv-dot sv-dot-3"></div>
+              <div class="sv-dot sv-dot-4"></div>
+              <div class="sv-dot sv-dot-5"></div>
+              <div class="sv-dot sv-dot-6"></div>
+            </div>
+          </div>
+          <div class="sv-cards-row">
+            <div class="sv-small-card">
+              <div class="sv-icon-wrap lime-sm">🏆</div>
+              <span>Tournament Hub</span>
+            </div>
+            <div class="sv-small-card">
+              <div class="sv-icon-wrap teal-sm">🎾</div>
+              <span>Court Booking</span>
+            </div>
+            <div class="sv-small-card">
+              <div class="sv-icon-wrap navy-sm">👤</div>
+              <span>My Profile</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════
+     CORE ECOSYSTEM
+════════════════════════════════════════════ -->
+<section class="ecosystem section dark-section" id="ecosystem" aria-labelledby="ecosystem-title">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="section-label light">The Ecosystem</div>
+      <h2 class="section-title white" id="ecosystem-title">Five Pillars.<br/><span class="gradient-text">One Connected World.</span></h2>
+      <p class="section-sub light">10isConnect unites every part of tennis into a single, intelligent platform.</p>
+    </div>
+    <div class="eco-grid">
+
+      <div class="eco-card reveal">
+        <div class="eco-icon-wrap">
+          <svg width="32" height="32" viewBox="0 0 48 48" fill="none" aria-hidden="true">
+            <circle cx="24" cy="24" r="22" fill="rgba(168,204,56,0.15)" stroke="#A8CC38" stroke-width="1.5"/>
+            <path d="M14 30l10-14 10 14" stroke="#A8CC38" stroke-width="2" stroke-linejoin="round"/>
+            <line x1="24" y1="16" x2="24" y2="32" stroke="#A8CC38" stroke-width="2"/>
+            <circle cx="24" cy="34" r="2" fill="#A8CC38"/>
+          </svg>
+        </div>
+        <h3 class="eco-title">Competition</h3>
+        <p class="eco-desc">From grassroots leagues to national championships, every competitive pathway in one place.</p>
+        <ul class="eco-list" role="list">
+          <li>Tournaments &amp; Draws</li>
+          <li>League Management</li>
+          <li>Live Rankings</li>
+          <li>Match Results</li>
+        </ul>
+        <div class="eco-tag">Competition</div>
+      </div>
+
+      <div class="eco-card reveal reveal-delay-1">
+        <div class="eco-icon-wrap">
+          <svg width="32" height="32" viewBox="0 0 48 48" fill="none" aria-hidden="true">
+            <circle cx="24" cy="24" r="22" fill="rgba(0,176,155,0.15)" stroke="#00B09B" stroke-width="1.5"/>
+            <circle cx="24" cy="18" r="7" stroke="#00B09B" stroke-width="2"/>
+            <path d="M10 38c0-7.18 6.27-13 14-13s14 5.82 14 13" stroke="#00B09B" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <h3 class="eco-title">Players</h3>
+        <p class="eco-desc">A portable digital identity for every player — amateur, junior, or professional.</p>
+        <ul class="eco-list" role="list">
+          <li>Digital Player Profiles</li>
+          <li>Intelligent Matchmaking</li>
+          <li>Social Connections</li>
+          <li>Performance History</li>
+        </ul>
+        <div class="eco-tag players">Players</div>
+      </div>
+
+      <div class="eco-card eco-card-featured reveal reveal-delay-2">
+        <div class="eco-icon-wrap featured">
+          <svg width="32" height="32" viewBox="0 0 48 48" fill="none" aria-hidden="true">
+            <circle cx="24" cy="24" r="22" fill="rgba(168,204,56,0.2)" stroke="#A8CC38" stroke-width="1.5"/>
+            <path d="M24 12l3 8h8l-6.5 5 2.5 8L24 28l-7 5 2.5-8L13 20h8z" stroke="#A8CC38" stroke-width="2" stroke-linejoin="round" fill="none"/>
+          </svg>
+        </div>
+        <div class="eco-featured-badge">Most Popular</div>
+        <h3 class="eco-title">Tennis Professionals</h3>
+        <p class="eco-desc">The home for every tennis professional — visible, verified, and connected to the players they serve.</p>
+        <ul class="eco-list" role="list">
+          <li>Certified Coaches</li>
+          <li>Tournament Officials</li>
+          <li>Fitness Trainers</li>
+          <li>Physiotherapists &amp; Stringers</li>
+        </ul>
+        <div class="eco-tag featured-tag">Professionals</div>
+      </div>
+
+      <div class="eco-card reveal reveal-delay-1">
+        <div class="eco-icon-wrap">
+          <svg width="32" height="32" viewBox="0 0 48 48" fill="none" aria-hidden="true">
+            <circle cx="24" cy="24" r="22" fill="rgba(0,176,155,0.15)" stroke="#00B09B" stroke-width="1.5"/>
+            <rect x="14" y="18" width="20" height="16" rx="2" stroke="#00B09B" stroke-width="2"/>
+            <line x1="14" y1="23" x2="34" y2="23" stroke="#00B09B" stroke-width="1.5"/>
+            <line x1="24" y1="18" x2="24" y2="34" stroke="#00B09B" stroke-width="1.5"/>
+            <path d="M18 14v4M30 14v4" stroke="#00B09B" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <h3 class="eco-title">Facilities</h3>
+        <p class="eco-desc">Clubs, academies, and venues managing courts, members, and sessions with precision.</p>
+        <ul class="eco-list" role="list">
+          <li>Club Directories</li>
+          <li>Court Bookings</li>
+          <li>Academy Management</li>
+          <li>Venue Discovery</li>
+        </ul>
+        <div class="eco-tag facilities">Facilities</div>
+      </div>
+
+      <div class="eco-card reveal reveal-delay-2">
+        <div class="eco-icon-wrap">
+          <svg width="32" height="32" viewBox="0 0 48 48" fill="none" aria-hidden="true">
+            <circle cx="24" cy="24" r="22" fill="rgba(168,204,56,0.15)" stroke="#A8CC38" stroke-width="1.5"/>
+            <circle cx="24" cy="24" r="4" fill="#A8CC38"/>
+            <circle cx="12" cy="18" r="3" stroke="#A8CC38" stroke-width="1.5"/>
+            <circle cx="36" cy="18" r="3" stroke="#A8CC38" stroke-width="1.5"/>
+            <circle cx="12" cy="30" r="3" stroke="#A8CC38" stroke-width="1.5"/>
+            <circle cx="36" cy="30" r="3" stroke="#A8CC38" stroke-width="1.5"/>
+            <line x1="20" y1="24" x2="15" y2="20" stroke="#A8CC38" stroke-width="1.2"/>
+            <line x1="28" y1="24" x2="33" y2="20" stroke="#A8CC38" stroke-width="1.2"/>
+            <line x1="20" y1="24" x2="15" y2="28" stroke="#A8CC38" stroke-width="1.2"/>
+            <line x1="28" y1="24" x2="33" y2="28" stroke="#A8CC38" stroke-width="1.2"/>
+          </svg>
+        </div>
+        <h3 class="eco-title">Beyond Tennis</h3>
+        <p class="eco-desc">The world around the sport — careers, travel, events, and everything that makes tennis a lifestyle.</p>
+        <ul class="eco-list" role="list">
+          <li>Communities &amp; Events</li>
+          <li>Tennis Careers</li>
+          <li>Sponsorships &amp; Marketplace</li>
+          <li>Volunteering &amp; Travel</li>
+        </ul>
+        <div class="eco-tag beyond">Beyond</div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════
+     MVP FEATURES
+════════════════════════════════════════════ -->
+<section class="features section" id="features" aria-labelledby="features-title">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="section-label">MVP Features</div>
+      <h2 class="section-title" id="features-title">Everything You Need.<br/><span class="gradient-text">Nothing You Don't.</span></h2>
+      <p class="section-sub">Our September 2026 MVP ships with the features that matter most, validated with real players and coaches.</p>
+    </div>
+    <div class="features-grid">
+      <div class="feature-card reveal">
+        <div class="fc-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+        </div>
+        <h3>Player Discovery</h3>
+        <p>Find players by level, location, and play style. Intelligent matching surfaces the right opponents at the right time.</p>
+      </div>
+      <div class="feature-card reveal reveal-delay-1">
+        <div class="fc-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+        </div>
+        <h3>Coach Finder</h3>
+        <p>Browse verified, DBS-checked coaches with full profiles, session pricing, availability, and player reviews.</p>
+      </div>
+      <div class="feature-card reveal reveal-delay-2">
+        <div class="fc-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+        </div>
+        <h3>Club Directory</h3>
+        <p>Every club, academy, and venue in one searchable directory — with courts, facilities, and membership options.</p>
+      </div>
+      <div class="feature-card reveal">
+        <div class="fc-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"/><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"/><path d="M4 22h16"/><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"/><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"/><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"/></svg>
+        </div>
+        <h3>Tournament Hub</h3>
+        <p>Enter competitions, track draws, and follow results across all levels — integrated with LTA and ITF data.</p>
+      </div>
+      <div class="feature-card reveal reveal-delay-1">
+        <div class="fc-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M8 4v16M16 4v16"/></svg>
+        </div>
+        <h3>Digital Tennis Profile</h3>
+        <p>One portable identity — LTA number, WTN, match history, and achievements verified and always up to date.</p>
+      </div>
+      <div class="feature-card reveal reveal-delay-2">
+        <div class="fc-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+        </div>
+        <h3>Event Calendar</h3>
+        <p>Your entire tennis schedule — sessions, tournaments, and squad practices — in a single unified calendar.</p>
+      </div>
+      <div class="feature-card reveal">
+        <div class="fc-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+        </div>
+        <h3>Performance Ratings</h3>
+        <p>Track RPE scores, coach evaluations, and session notes over time to measure development objectively.</p>
+      </div>
+      <div class="feature-card reveal reveal-delay-1">
+        <div class="fc-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89L17 22l-5-3-5 3 1.523-9.11"/></svg>
+        </div>
+        <h3>Achievements</h3>
+        <p>Milestone badges, match records, and seasonal accomplishments displayed on every player's profile.</p>
+      </div>
+      <div class="feature-card reveal reveal-delay-2">
+        <div class="fc-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+        </div>
+        <h3>Community Feed</h3>
+        <p>A focused tennis community — share results, ask questions, and build connections with people who share your passion.</p>
+      </div>
+      <div class="feature-card feature-card-ai reveal reveal-delay-1">
+        <div class="fc-icon ai-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 2a10 10 0 1 0 10 10"/><path d="M12 12l8-8"/><path d="M16 4h4v4"/><circle cx="12" cy="12" r="3"/></svg>
+        </div>
+        <div class="ai-badge">Coming Soon</div>
+        <h3>AI Match Recommendations</h3>
+        <p>Our AI engine analyses your play history, schedule, and goals to recommend the perfect next match, session, or opponent.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════
+     HOW IT WORKS
+════════════════════════════════════════════ -->
+<section class="how-it-works section" id="roadmap" aria-labelledby="hiw-title">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="section-label">How It Works</div>
+      <h2 class="section-title" id="hiw-title">Up and Running<br/><span class="gradient-text">In Four Steps</span></h2>
+    </div>
+    <div class="steps-container">
+      <div class="step reveal">
+        <div class="step-number">01</div>
+        <div class="step-icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+        </div>
+        <h3>Create Your Tennis Profile</h3>
+        <p>Register in minutes. Add your LTA number, WTN, and club. Your verified digital identity is ready instantly.</p>
+      </div>
+      <div class="step-arrow" aria-hidden="true">
+        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </div>
+      <div class="step reveal reveal-delay-1">
+        <div class="step-number">02</div>
+        <div class="step-icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+        </div>
+        <h3>Discover Players &amp; Clubs</h3>
+        <p>Explore your local tennis community — find matched players, qualified coaches, and venues near you.</p>
+      </div>
+      <div class="step-arrow" aria-hidden="true">
+        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </div>
+      <div class="step reveal reveal-delay-2">
+        <div class="step-number">03</div>
+        <div class="step-icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"/><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"/><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"/></svg>
+        </div>
+        <h3>Compete &amp; Improve</h3>
+        <p>Enter tournaments, book court sessions, track your performance, and watch your game develop over time.</p>
+      </div>
+      <div class="step-arrow" aria-hidden="true">
+        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </div>
+      <div class="step reveal reveal-delay-3">
+        <div class="step-number">04</div>
+        <div class="step-icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+        </div>
+        <h3>Build Your Tennis Network</h3>
+        <p>Connect with fellow players, follow coaches you admire, and become part of a community that shares your game.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════
+     PLATFORM PREVIEW
+════════════════════════════════════════════ -->
+<section class="preview section dark-section" aria-labelledby="preview-title">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="section-label light">Platform Preview</div>
+      <h2 class="section-title white" id="preview-title">A Platform Built for<br/><span class="gradient-text">Serious Tennis</span></h2>
+    </div>
+    <div class="preview-tabs reveal">
+      <button class="prev-tab active" data-tab="dashboard" aria-selected="true">Dashboard</button>
+      <button class="prev-tab" data-tab="tournament" aria-selected="false">Tournament</button>
+      <button class="prev-tab" data-tab="coach" aria-selected="false">Coach Hub</button>
+      <button class="prev-tab" data-tab="stats" aria-selected="false">Statistics</button>
+    </div>
+    <div class="preview-window reveal reveal-delay-1">
+      <!-- Dashboard Tab -->
+      <div class="prev-panel active" id="tab-dashboard">
+        <div class="mock-browser">
+          <div class="mock-bar">
+            <div class="mock-dots"><span></span><span></span><span></span></div>
+            <div class="mock-url">app.10isconnect.com/dashboard</div>
+          </div>
+          <div class="mock-body">
+            <div class="mock-sidebar">
+              <div class="mock-nav-logo">
+                <svg viewBox="0 0 18 18" width="18" height="18"><circle cx="9" cy="9" r="8" fill="#A8CC38"/><path d="M2 9Q9 2 16 9" stroke="white" stroke-width="1.5" fill="none"/><path d="M2 9Q9 16 16 9" stroke="white" stroke-width="1.5" fill="none"/></svg>
+                <span>10is</span>
+              </div>
+              <div class="mock-nav-item active">🏠 Dashboard</div>
+              <div class="mock-nav-item">🎾 My Matches</div>
+              <div class="mock-nav-item">🏆 Tournaments</div>
+              <div class="mock-nav-item">👤 My Profile</div>
+              <div class="mock-nav-item">📅 Calendar</div>
+              <div class="mock-nav-item">🔍 Discover</div>
+            </div>
+            <div class="mock-main">
+              <div class="mock-header-bar">
+                <div>
+                  <div class="mock-page-title">Welcome back, Alex</div>
+                  <div class="mock-page-sub">Thursday, 26 June 2026</div>
+                </div>
+                <div class="mock-header-actions">
+                  <div class="mock-notif">🔔</div>
+                  <div class="mock-avatar">A</div>
+                </div>
+              </div>
+              <div class="mock-cards-row">
+                <div class="mock-stat-card teal-card">
+                  <div class="msc-label">World Tennis Number</div>
+                  <div class="msc-value">8.4</div>
+                  <div class="msc-trend">↑ +0.3 this month</div>
+                </div>
+                <div class="mock-stat-card">
+                  <div class="msc-label">Matches This Season</div>
+                  <div class="msc-value">24</div>
+                  <div class="msc-trend">14W · 10L</div>
+                </div>
+                <div class="mock-stat-card">
+                  <div class="msc-label">Next Tournament</div>
+                  <div class="msc-value">Jul 5</div>
+                  <div class="msc-trend">Surrey Open · Grade 4</div>
+                </div>
+              </div>
+              <div class="mock-section-title">Upcoming Sessions</div>
+              <div class="mock-session-row">
+                <div class="mock-session">
+                  <div class="ms-dot teal-dot"></div>
+                  <div class="ms-info"><strong>Individual Lesson</strong><span>Today 3:00 PM · Court 2</span></div>
+                  <div class="ms-coach">Coach Priya</div>
+                </div>
+                <div class="mock-session">
+                  <div class="ms-dot lime-dot"></div>
+                  <div class="ms-info"><strong>County League R4</strong><span>Sat 10:00 AM · Wimbledon TC</span></div>
+                  <div class="ms-coach">League Match</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Tournament Tab -->
+      <div class="prev-panel" id="tab-tournament">
+        <div class="mock-browser">
+          <div class="mock-bar">
+            <div class="mock-dots"><span></span><span></span><span></span></div>
+            <div class="mock-url">app.10isconnect.com/tournaments</div>
+          </div>
+          <div class="mock-body">
+            <div class="mock-main full-width">
+              <div class="mock-header-bar">
+                <div class="mock-page-title">Tournament Hub</div>
+                <div class="mock-search-bar">🔍 Search tournaments…</div>
+              </div>
+              <div class="tourn-filters">
+                <span class="tf active">All</span>
+                <span class="tf">Open</span>
+                <span class="tf">Junior</span>
+                <span class="tf">Veterans</span>
+                <span class="tf">Indoor</span>
+              </div>
+              <div class="tourn-list">
+                <div class="tourn-item">
+                  <div class="ti-badge grade4">Grade 4</div>
+                  <div class="ti-info"><strong>Surrey Open Championships</strong><span>5–7 July 2026 · Sutton TC · £18 entry</span></div>
+                  <div class="ti-status open">Open</div>
+                </div>
+                <div class="tourn-item">
+                  <div class="ti-badge grade3">Grade 3</div>
+                  <div class="ti-info"><strong>Kent County Junior Open</strong><span>12–14 July 2026 · Beckenham LTC · £22 entry</span></div>
+                  <div class="ti-status closing">Closing Soon</div>
+                </div>
+                <div class="tourn-item">
+                  <div class="ti-badge grade5">Grade 5</div>
+                  <div class="ti-info"><strong>Wimbledon Park Invitational</strong><span>19 July 2026 · Wimbledon Park TC · £12 entry</span></div>
+                  <div class="ti-status open">Open</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Coach Tab -->
+      <div class="prev-panel" id="tab-coach">
+        <div class="mock-browser">
+          <div class="mock-bar">
+            <div class="mock-dots"><span></span><span></span><span></span></div>
+            <div class="mock-url">app.10isconnect.com/coaches</div>
+          </div>
+          <div class="mock-body">
+            <div class="mock-main full-width">
+              <div class="mock-header-bar">
+                <div class="mock-page-title">Find a Coach</div>
+                <div class="mock-search-bar">🔍 Search by name, area, level…</div>
+              </div>
+              <div class="coach-grid-mock">
+                <div class="coach-card-mock">
+                  <div class="cm-avatar teal-av">PR</div>
+                  <div class="cm-info">
+                    <strong>Priya Rajan</strong>
+                    <span>LTA Level 3 · South London</span>
+                    <div class="cm-stars">★★★★★ <small>4.9 (48)</small></div>
+                    <div class="cm-price">From £45/hr</div>
+                  </div>
+                  <div class="cm-badge verified">✓ DBS</div>
+                </div>
+                <div class="coach-card-mock">
+                  <div class="cm-avatar lime-av">JT</div>
+                  <div class="cm-info">
+                    <strong>James Thornton</strong>
+                    <span>LTA Level 4 · Surrey</span>
+                    <div class="cm-stars">★★★★★ <small>5.0 (31)</small></div>
+                    <div class="cm-price">From £55/hr</div>
+                  </div>
+                  <div class="cm-badge verified">✓ DBS</div>
+                </div>
+                <div class="coach-card-mock">
+                  <div class="cm-avatar navy-av">MC</div>
+                  <div class="cm-info">
+                    <strong>Maria Chen</strong>
+                    <span>LTA Level 3 · Kent</span>
+                    <div class="cm-stars">★★★★☆ <small>4.7 (62)</small></div>
+                    <div class="cm-price">From £40/hr</div>
+                  </div>
+                  <div class="cm-badge verified">✓ DBS</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Stats Tab -->
+      <div class="prev-panel" id="tab-stats">
+        <div class="mock-browser">
+          <div class="mock-bar">
+            <div class="mock-dots"><span></span><span></span><span></span></div>
+            <div class="mock-url">app.10isconnect.com/statistics</div>
+          </div>
+          <div class="mock-body">
+            <div class="mock-main full-width">
+              <div class="mock-header-bar">
+                <div class="mock-page-title">My Statistics</div>
+                <div class="stat-period-toggle"><span class="spt active">Season</span><span class="spt">12 Months</span><span class="spt">All Time</span></div>
+              </div>
+              <div class="stat-bars-mock">
+                <div class="sbm-label">Win Rate</div>
+                <div class="sbm-bar"><div class="sbm-fill" style="width:64%"></div><span>64%</span></div>
+                <div class="sbm-label">First Serve %</div>
+                <div class="sbm-bar"><div class="sbm-fill lime" style="width:71%"></div><span>71%</span></div>
+                <div class="sbm-label">RPE Average</div>
+                <div class="sbm-bar"><div class="sbm-fill teal" style="width:72%"></div><span>7.2 / 10</span></div>
+                <div class="sbm-label">Tournament Ranking</div>
+                <div class="sbm-bar"><div class="sbm-fill" style="width:55%"></div><span>#42 County</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════
+     FUTURE VISION
+════════════════════════════════════════════ -->
+<section class="vision section" aria-labelledby="vision-title">
+  <div class="container">
+    <div class="vision-layout reveal">
+      <div class="vision-left">
+        <div class="section-label">Future Vision</div>
+        <h2 class="section-title" id="vision-title">The Digital Home for<br/><span class="gradient-text">Global Tennis</span></h2>
+        <p>10isConnect is building far beyond a scheduling tool. Our vision is an intelligent, interconnected platform that becomes the universal layer for every tennis interaction — from a child's first lesson to a professional's career management.</p>
+        <p>As our community grows, so does our intelligence. Every match, every connection, and every session enriches the platform — creating a compounding network effect that makes tennis better for everyone in it.</p>
+        <div class="vision-milestones">
+          <div class="vm-item">
+            <div class="vm-dot"></div>
+            <div>
+              <strong>2026 Q3</strong>
+              <span>MVP Launch — Core platform for players, coaches, and clubs</span>
+            </div>
+          </div>
+          <div class="vm-item">
+            <div class="vm-dot future"></div>
+            <div>
+              <strong>2026 Q4</strong>
+              <span>AI match recommendations, advanced analytics, Supersets expansion</span>
+            </div>
+          </div>
+          <div class="vm-item">
+            <div class="vm-dot future"></div>
+            <div>
+              <strong>2027</strong>
+              <span>International rollout — Padel integration, governing body partnerships, global rankings</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="vision-right">
+        <div class="vision-cards">
+          <div class="vc-card">
+            <div class="vc-icon">🌍</div>
+            <h4>Global Reach</h4>
+            <p>Designed from day one to serve tennis communities across every continent, language, and level.</p>
+          </div>
+          <div class="vc-card">
+            <div class="vc-icon">🤖</div>
+            <h4>AI-Powered Intelligence</h4>
+            <p>Machine learning that understands your game, predicts your progress, and recommends your next move.</p>
+          </div>
+          <div class="vc-card">
+            <div class="vc-icon">🔗</div>
+            <h4>Open Integrations</h4>
+            <p>Native connections with LTA, WTA, ATP, ITF, SwingVision, ClubSpark, and the wider tennis data ecosystem.</p>
+          </div>
+          <div class="vc-card">
+            <div class="vc-icon">🛡️</div>
+            <h4>Safe by Design</h4>
+            <p>Built with child safety and data privacy at the core. GDPR-compliant, DBS-verified, and safeguarded from day one.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════
+     TESTIMONIALS
+════════════════════════════════════════════ -->
+<section class="testimonials section dark-section" aria-labelledby="test-title">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="section-label light">Early Feedback</div>
+      <h2 class="section-title white" id="test-title">What the Tennis Community<br/><span class="gradient-text">Is Saying</span></h2>
+    </div>
+    <div class="test-grid">
+      <div class="test-card reveal">
+        <div class="test-quote">"Finally, a platform that understands what tennis players actually need. The profile system alone will save me hours every season."</div>
+        <div class="test-author">
+          <div class="ta-avatar">MR</div>
+          <div><strong>Marcus Reid</strong><span>Club Player · Surrey LTA</span></div>
+        </div>
+      </div>
+      <div class="test-card reveal reveal-delay-1">
+        <div class="test-quote">"As a coach, I spend so much time on admin. 10isConnect promises to give that time back and let me focus on what matters — developing players."</div>
+        <div class="test-author">
+          <div class="ta-avatar teal">CJ</div>
+          <div><strong>Claire Johnson</strong><span>LTA Level 3 Coach · Kent</span></div>
+        </div>
+      </div>
+      <div class="test-card reveal reveal-delay-2">
+        <div class="test-quote">"The tournament hub concept is exactly what junior parents need. Right now we're checking four different websites just to plan a term's competitions."</div>
+        <div class="test-author">
+          <div class="ta-avatar lime">SP</div>
+          <div><strong>Sarah Patel</strong><span>Tennis Parent · Middlesex</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════
+     CTA
+════════════════════════════════════════════ -->
+<section class="cta-section" id="contact" aria-labelledby="cta-title">
+  <div class="cta-bg">
+    <div class="cta-orb cta-orb-1"></div>
+    <div class="cta-orb cta-orb-2"></div>
+  </div>
+  <div class="container cta-content">
+    <div class="cta-ball" aria-hidden="true">
+      <svg viewBox="0 0 80 80" width="80" height="80"><circle cx="40" cy="40" r="36" fill="#A8CC38"/><path d="M10 40Q40 8 70 40" stroke="white" stroke-width="4" fill="none"/><path d="M10 40Q40 72 70 40" stroke="white" stroke-width="4" fill="none"/></svg>
+    </div>
+    <h2 class="cta-title reveal" id="cta-title">Ready to Transform Your<br/><span class="gradient-text">Tennis Journey?</span></h2>
+    <p class="cta-sub reveal reveal-delay-1">Join thousands of players, coaches, and clubs who are building the future of tennis together. Early access is free — be among the first to experience it.</p>
+    <div class="cta-form reveal reveal-delay-2">
+      <div class="cta-input-group">
+        <input type="email" placeholder="Enter your email address" class="cta-input" aria-label="Email address" />
+        <button class="btn btn-primary cta-submit">Request Early Access</button>
+      </div>
+      <div class="cta-fine">Join 2,400+ people already on the waitlist · No spam, ever.</div>
+    </div>
+    <div class="cta-buttons reveal reveal-delay-3">
+      <a href="#features" class="btn btn-outline-white">Explore MVP Features</a>
+    </div>
+    <div class="cta-tagline reveal reveal-delay-4">One Court. One Community. One Tennis World.</div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════
+     FOOTER
+════════════════════════════════════════════ -->
+<footer class="footer" role="contentinfo">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <a href="#" class="nav-logo footer-logo" aria-label="10isConnect Home">
+        <img src="assets/logo.png" alt="10isConnect" class="logo-img logo-light" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+        <span class="logo-svg-fallback" aria-hidden="true">
+          <svg viewBox="0 0 220 44" xmlns="http://www.w3.org/2000/svg" height="34">
+            <text x="0" y="32" font-family="Poppins,sans-serif" font-weight="800" font-size="30" fill="white">1</text>
+            <circle cx="28" cy="20" r="13" fill="#A8CC38"/>
+            <path d="M17 20 Q28 10 39 20" stroke="white" stroke-width="2" fill="none"/>
+            <path d="M17 20 Q28 30 39 20" stroke="white" stroke-width="2" fill="none"/>
+            <text x="44" y="32" font-family="Poppins,sans-serif" font-weight="800" font-size="30" fill="white">is</text>
+            <text x="82" y="32" font-family="Poppins,sans-serif" font-weight="800" font-size="30" fill="#00B09B">Connect</text>
+          </svg>
+        </span>
+      </a>
+      <p class="footer-tagline">One Court. One Community.<br/>One Tennis World.</p>
+      <div class="footer-socials">
+        <a href="#" class="social-link" aria-label="Twitter/X"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
+        <a href="#" class="social-link" aria-label="LinkedIn"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg></a>
+        <a href="#" class="social-link" aria-label="Instagram"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg></a>
+        <a href="#" class="social-link" aria-label="YouTube"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46a2.78 2.78 0 0 0-1.95 1.96A29 29 0 0 0 1 12a29 29 0 0 0 .46 5.58A2.78 2.78 0 0 0 3.41 19.6C5.12 20 12 20 12 20s6.88 0 8.59-.4a2.78 2.78 0 0 0 1.95-1.95A29 29 0 0 0 23 12a29 29 0 0 0-.46-5.58z"/><polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02" fill="white"/></svg></a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Platform</h4>
+      <ul role="list">
+        <li><a href="#features">Features</a></li>
+        <li><a href="#ecosystem">Ecosystem</a></li>
+        <li><a href="#roadmap">Roadmap</a></li>
+        <li><a href="#contact">Early Access</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>For You</h4>
+      <ul role="list">
+        <li><a href="#">Players</a></li>
+        <li><a href="#">Coaches</a></li>
+        <li><a href="#">Clubs &amp; Venues</a></li>
+        <li><a href="#">Governing Bodies</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Company</h4>
+      <ul role="list">
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Careers</a></li>
+        <li><a href="#">Press</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Support</h4>
+      <ul role="list">
+        <li><a href="#">Help Centre</a></li>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">Safeguarding</a></li>
+        <li><a href="#">Accessibility</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container footer-bottom-inner">
+      <span>&copy; 2026 10isConnect Ltd. All rights reserved.</span>
+      <div class="footer-legal">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+        <a href="#">Cookie Policy</a>
+        <a href="#">Safeguarding Policy</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
